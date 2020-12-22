@@ -1,0 +1,51 @@
+<!doctype html>
+    <html>
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http.equiv="X-UA-Compatible" content="ie-edge">
+            <title>
+                Mouse Handling
+            </title>
+            <script src="framework.js" > </script>
+            <script src="app.js" defer> </script>
+            <style>
+                
+                body
+                {
+                    border:solid black;
+                    background-color:lightyellow;
+                    font-family:verdana,georgia,serif;
+                    text-decoration:underline; 
+                    font-family:Elephant;   
+   
+                }
+                h1
+                {
+                    background-color:black;
+                    color:white;
+                    text-decoration:underline;
+                    font-family:Elephant;
+                }
+            </style>
+            
+
+
+        </head>
+        <body>
+        <center>
+        <h1>Mouse Handling</h1>
+            <div style="border:5px; border-style:solid; border-color:black; height:500px;width:700px;">
+            <canvas id="mycanvas" height="500" width="700"></canvas>
+            <input type="button"  value="DrawCircle" onclick="drawcircle();"/>
+            <input type="button"  value="DrawRect" onclick="drawrect();"/>
+            <input type="button"  value="changecolor" onclick="changecolor();"/>
+
+            </br>
+            Enter Radius <input type="text" id="t1">
+            Enter Length <input type="text" id="t2">
+            enter height <input type="text" id="t3">
+
+            
+        </body>
+    </html>
